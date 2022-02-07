@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
                 content: Text(errorMessage),
-                backgroundColor: Colors.red,
+                backgroundColor: Colors.green,
               ),
             );
           }
